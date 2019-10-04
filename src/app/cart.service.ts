@@ -14,7 +14,7 @@ export class CartService {
     return this.items;
   }
 
-  putOnCart(item){
+  addToCart(item){
     this.items.push(item);
   }
 
