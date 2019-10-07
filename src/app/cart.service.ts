@@ -7,7 +7,11 @@ import { HttpClient} from '@angular/common/http';
   }  
 )
 export class CartService {
-  items = [];
+  items =  [{
+    name: 'Esmartifone',
+    price: 1.99,
+    description: 'Telefone bom pra caramba'
+  }];
 
   constructor(
     private http: HttpClient
